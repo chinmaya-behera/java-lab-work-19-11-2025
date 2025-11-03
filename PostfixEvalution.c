@@ -35,6 +35,7 @@ int evaluatePostfix(char* exp){
     return pop();
 }
 void main(){
-    char exp[]="53+2*4-";
+    char exp[]="52+384/*-6-";
     printf("Postfix Evaluation: %d\n", evaluatePostfix(exp));
+
 }
